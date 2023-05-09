@@ -1,16 +1,20 @@
 import { Box, CircularProgress, Tab, Tabs, Typography } from "@mui/material";
-import React, { useState } from "react";
-import { ErrorBoundary } from "react-error-boundary";
-import { TabPanel } from "./components/TabPanel";
-
-// @ts-ignore
-const Remote1App = React.lazy(() => import("remote_app_1/App"));
-
-// @ts-ignore
-const Remote2App = React.lazy(() => import("remote_app_2/App"));
+import {
+  Navigate,
+  Route,
+  Routes,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
+import { Remote1AppPage } from "./pages/Remote1AppPage";
+import { Remote2AppPage } from "./pages/Remote2AppPage";
 
 export const App = () => {
-  const [tab, setTab] = useState(0);
+  const { pathname, search } = useLocation();
+  const navigate = useNavigate();
+
+  const query = new URLSearchParams(search);
+  const spin = query.get("spin");
 
   return (
     <>
@@ -18,29 +22,26 @@ export const App = () => {
         MFE Example: Host App
       </Typography>
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-        <Tabs value={tab} onChange={(e, v) => setTab(v)}>
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+        <Tabs value={pathname.slice(1)} onChange={(e, v) => navigate(v)}>
+          <Tab label="Item One" value="remote1" />
+          <Tab label="Item Two" value="remote2" />
+          <Tab label="Item Three" value="mix" />
         </Tabs>
       </Box>
-      <TabPanel value={tab} index={0}>
-        <ErrorBoundary fallback={<Typography>Oops!</Typography>}>
-          <React.Suspense fallback={<CircularProgress />}>
-            <Remote1App />
-          </React.Suspense>
-        </ErrorBoundary>
-      </TabPanel>
-      <TabPanel value={tab} index={1}>
-        <ErrorBoundary fallback={<Typography>Oops!</Typography>}>
-          <React.Suspense fallback={<CircularProgress />}>
-            <Remote2App />
-          </React.Suspense>
-        </ErrorBoundary>
-      </TabPanel>
-      <TabPanel value={tab} index={2}>
-        <CircularProgress />
-      </TabPanel>
+      <Box sx={{ p: 2 }}>
+        <Routes>
+          <Route
+            path="/remote1"
+            element={spin ? <CircularProgress /> : <Remote1AppPage />}
+          />
+          <Route
+            path="/remote2"
+            element={spin ? <CircularProgress /> : <Remote2AppPage />}
+          />
+          <Route path="/mix" element={<CircularProgress />} />
+          <Route index element={<Navigate to="remote1" />} />
+        </Routes>
+      </Box>
     </>
   );
 };
