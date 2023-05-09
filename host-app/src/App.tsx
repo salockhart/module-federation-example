@@ -1,6 +1,13 @@
 import { Box, CircularProgress, Tab, Tabs, Typography } from "@mui/material";
-import { useState } from "react";
+import React, { useState } from "react";
+import { ErrorBoundary } from "react-error-boundary";
 import { TabPanel } from "./components/TabPanel";
+
+// @ts-ignore
+const Remote1App = React.lazy(() => import("remote_app_1/App"));
+
+// @ts-ignore
+const Remote2App = React.lazy(() => import("remote_app_2/App"));
 
 export const App = () => {
   const [tab, setTab] = useState(0);
@@ -18,10 +25,18 @@ export const App = () => {
         </Tabs>
       </Box>
       <TabPanel value={tab} index={0}>
-        <CircularProgress />
+        <ErrorBoundary fallback={<Typography>Oops!</Typography>}>
+          <React.Suspense fallback={<CircularProgress />}>
+            <Remote1App />
+          </React.Suspense>
+        </ErrorBoundary>
       </TabPanel>
       <TabPanel value={tab} index={1}>
-        <CircularProgress />
+        <ErrorBoundary fallback={<Typography>Oops!</Typography>}>
+          <React.Suspense fallback={<CircularProgress />}>
+            <Remote2App />
+          </React.Suspense>
+        </ErrorBoundary>
       </TabPanel>
       <TabPanel value={tab} index={2}>
         <CircularProgress />
