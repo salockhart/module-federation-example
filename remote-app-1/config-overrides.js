@@ -6,7 +6,7 @@ module.exports = function override(config) {
   return merge(config, {
     output: {
       uniqueName: "remote_app_1",
-      publicPath: "http://localhost:3001/",
+      publicPath: process.env.PUBLIC_PATH,
     },
     plugins: [
       new ModuleFederationPlugin({
