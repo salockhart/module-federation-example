@@ -1,4 +1,3 @@
-import { ThemeProvider, createTheme } from "@mui/material";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
@@ -11,8 +10,6 @@ import { App } from "../App";
 import "../index.css";
 import reportWebVitals from "../reportWebVitals";
 
-const theme = createTheme();
-
 const router = createBrowserRouter(
   createRoutesFromElements(<Route path="/*" element={<App />} />)
 );
@@ -22,9 +19,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <RouterProvider router={router} />
-    </ThemeProvider>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
