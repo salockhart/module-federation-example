@@ -25,7 +25,7 @@ export const PriceCard: React.FC<Props> = ({ price, image }) => {
           <Typography variant="body2" color="text.secondary">
             {price}
           </Typography>
-          <IconButton size="small">
+          <IconButton size="small" color="primary">
             <AddShoppingCartIcon />
           </IconButton>
         </Stack>
