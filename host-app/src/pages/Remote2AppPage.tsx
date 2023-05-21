@@ -7,7 +7,7 @@ const Remote2App = React.lazy(() => import("remote_app_2/App"));
 
 export const Remote2AppPage = () => {
   return (
-    <ErrorBoundary fallback={<>🤷</>}>
+    <ErrorBoundary fallback={<h1>🤷</h1>}>
       <React.Suspense fallback={<CircularProgress />}>
         <Remote2App />
       </React.Suspense>
