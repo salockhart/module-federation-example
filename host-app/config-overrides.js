@@ -4,13 +4,8 @@ const { dependencies } = require("./package.json");
 
 module.exports = function override(config) {
   return merge(config, {
-    output: {
-      uniqueName: "host_app",
-      publicPath: process.env.PUBLIC_PATH,
-    },
     plugins: [
       new ModuleFederationPlugin({
-        name: "host_app",
         remotes: {
           remote_app_1: process.env.REMOTE_APP_1,
           remote_app_2: process.env.REMOTE_APP_2,
