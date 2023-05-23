@@ -1,0 +1,53 @@
+name: deploy
+
+concurrency: deploy
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: setup remote
+        run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        env:
+          GITHUB_REPOSITORY: salockhart/module-federation-example
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: build & deploy host-app
+        run: |
+          npm ci
+          npm run build
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        working-directory: host-app
+
+      - name: build & deploy remote-app-1
+        run: |
+          npm ci
+          npm run build
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        working-directory: remote-app-1
+
+      - name: build & deploy remote-app-2
+        run: |
+          npm ci
+          npm run build
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        working-directory: remote-app-2

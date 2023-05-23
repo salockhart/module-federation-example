@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.js": "/module-federation-example/host-app/static/js/main.d1440945.js",
+    "static/css/735.19f42a5c.chunk.css": "/module-federation-example/host-app/static/css/735.19f42a5c.chunk.css",
+    "static/js/735.375ffa25.chunk.js": "/module-federation-example/host-app/static/js/735.375ffa25.chunk.js",
+    "static/js/702.bc15c451.chunk.js": "/module-federation-example/host-app/static/js/702.bc15c451.chunk.js",
+    "static/js/225.77016a9a.chunk.js": "/module-federation-example/host-app/static/js/225.77016a9a.chunk.js",
+    "static/js/660.b4c5e8c7.chunk.js": "/module-federation-example/host-app/static/js/660.b4c5e8c7.chunk.js",
+    "static/js/783.0180edd2.chunk.js": "/module-federation-example/host-app/static/js/783.0180edd2.chunk.js",
+    "static/js/439.7cf72c48.chunk.js": "/module-federation-example/host-app/static/js/439.7cf72c48.chunk.js",
+    "static/js/791.6276d6ee.chunk.js": "/module-federation-example/host-app/static/js/791.6276d6ee.chunk.js",
+    "static/js/787.1912ef9c.chunk.js": "/module-federation-example/host-app/static/js/787.1912ef9c.chunk.js",
+    "static/js/164.d173b888.chunk.js": "/module-federation-example/host-app/static/js/164.d173b888.chunk.js",
+    "static/js/677.f072c35c.chunk.js": "/module-federation-example/host-app/static/js/677.f072c35c.chunk.js",
+    "static/js/73.58ea857e.chunk.js": "/module-federation-example/host-app/static/js/73.58ea857e.chunk.js",
+    "static/js/192.eeafc2fa.chunk.js": "/module-federation-example/host-app/static/js/192.eeafc2fa.chunk.js",
+    "static/js/938.c91fb019.chunk.js": "/module-federation-example/host-app/static/js/938.c91fb019.chunk.js",
+    "static/js/361.5b8c06a6.chunk.js": "/module-federation-example/host-app/static/js/361.5b8c06a6.chunk.js",
+    "static/js/357.86c2277f.chunk.js": "/module-federation-example/host-app/static/js/357.86c2277f.chunk.js",
+    "index.html": "/module-federation-example/host-app/index.html",
+    "main.d1440945.js.map": "/module-federation-example/host-app/static/js/main.d1440945.js.map",
+    "735.19f42a5c.chunk.css.map": "/module-federation-example/host-app/static/css/735.19f42a5c.chunk.css.map",
+    "735.375ffa25.chunk.js.map": "/module-federation-example/host-app/static/js/735.375ffa25.chunk.js.map",
+    "702.bc15c451.chunk.js.map": "/module-federation-example/host-app/static/js/702.bc15c451.chunk.js.map",
+    "225.77016a9a.chunk.js.map": "/module-federation-example/host-app/static/js/225.77016a9a.chunk.js.map",
+    "660.b4c5e8c7.chunk.js.map": "/module-federation-example/host-app/static/js/660.b4c5e8c7.chunk.js.map",
+    "783.0180edd2.chunk.js.map": "/module-federation-example/host-app/static/js/783.0180edd2.chunk.js.map",
+    "439.7cf72c48.chunk.js.map": "/module-federation-example/host-app/static/js/439.7cf72c48.chunk.js.map",
+    "791.6276d6ee.chunk.js.map": "/module-federation-example/host-app/static/js/791.6276d6ee.chunk.js.map",
+    "787.1912ef9c.chunk.js.map": "/module-federation-example/host-app/static/js/787.1912ef9c.chunk.js.map",
+    "164.d173b888.chunk.js.map": "/module-federation-example/host-app/static/js/164.d173b888.chunk.js.map",
+    "677.f072c35c.chunk.js.map": "/module-federation-example/host-app/static/js/677.f072c35c.chunk.js.map",
+    "73.58ea857e.chunk.js.map": "/module-federation-example/host-app/static/js/73.58ea857e.chunk.js.map",
+    "192.eeafc2fa.chunk.js.map": "/module-federation-example/host-app/static/js/192.eeafc2fa.chunk.js.map",
+    "938.c91fb019.chunk.js.map": "/module-federation-example/host-app/static/js/938.c91fb019.chunk.js.map",
+    "361.5b8c06a6.chunk.js.map": "/module-federation-example/host-app/static/js/361.5b8c06a6.chunk.js.map",
+    "357.86c2277f.chunk.js.map": "/module-federation-example/host-app/static/js/357.86c2277f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d1440945.js"
+  ]
+}
