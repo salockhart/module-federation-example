@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/module-federation-example/remote-app-2/static/js/main.bb3ad8ee.js",
+    "remote_app_2.js": "/module-federation-example/remote-app-2/remoteEntry.js",
+    "static/css/888.74f73256.chunk.css": "/module-federation-example/remote-app-2/static/css/888.74f73256.chunk.css",
+    "static/js/888.e3b3f92e.chunk.js": "/module-federation-example/remote-app-2/static/js/888.e3b3f92e.chunk.js",
+    "static/js/702.7eef1f0a.chunk.js": "/module-federation-example/remote-app-2/static/js/702.7eef1f0a.chunk.js",
+    "static/js/225.5dbe3ae9.chunk.js": "/module-federation-example/remote-app-2/static/js/225.5dbe3ae9.chunk.js",
+    "static/js/184.3cf2bd18.chunk.js": "/module-federation-example/remote-app-2/static/js/184.3cf2bd18.chunk.js",
+    "static/js/791.fc8a65a3.chunk.js": "/module-federation-example/remote-app-2/static/js/791.fc8a65a3.chunk.js",
+    "static/js/787.5de05407.chunk.js": "/module-federation-example/remote-app-2/static/js/787.5de05407.chunk.js",
+    "static/js/189.0fecb15e.chunk.js": "/module-federation-example/remote-app-2/static/js/189.0fecb15e.chunk.js",
+    "static/js/164.ef1e659c.chunk.js": "/module-federation-example/remote-app-2/static/js/164.ef1e659c.chunk.js",
+    "static/js/192.6c1fe200.chunk.js": "/module-federation-example/remote-app-2/static/js/192.6c1fe200.chunk.js",
+    "static/js/938.f4e1d137.chunk.js": "/module-federation-example/remote-app-2/static/js/938.f4e1d137.chunk.js",
+    "static/js/361.f6b141ad.chunk.js": "/module-federation-example/remote-app-2/static/js/361.f6b141ad.chunk.js",
+    "static/js/390.b221712d.chunk.js": "/module-federation-example/remote-app-2/static/js/390.b221712d.chunk.js",
+    "index.html": "/module-federation-example/remote-app-2/index.html",
+    "main.bb3ad8ee.js.map": "/module-federation-example/remote-app-2/static/js/main.bb3ad8ee.js.map",
+    "remoteEntry.js.map": "/module-federation-example/remote-app-2/remoteEntry.js.map",
+    "888.74f73256.chunk.css.map": "/module-federation-example/remote-app-2/static/css/888.74f73256.chunk.css.map",
+    "888.e3b3f92e.chunk.js.map": "/module-federation-example/remote-app-2/static/js/888.e3b3f92e.chunk.js.map",
+    "702.7eef1f0a.chunk.js.map": "/module-federation-example/remote-app-2/static/js/702.7eef1f0a.chunk.js.map",
+    "225.5dbe3ae9.chunk.js.map": "/module-federation-example/remote-app-2/static/js/225.5dbe3ae9.chunk.js.map",
+    "184.3cf2bd18.chunk.js.map": "/module-federation-example/remote-app-2/static/js/184.3cf2bd18.chunk.js.map",
+    "791.fc8a65a3.chunk.js.map": "/module-federation-example/remote-app-2/static/js/791.fc8a65a3.chunk.js.map",
+    "787.5de05407.chunk.js.map": "/module-federation-example/remote-app-2/static/js/787.5de05407.chunk.js.map",
+    "189.0fecb15e.chunk.js.map": "/module-federation-example/remote-app-2/static/js/189.0fecb15e.chunk.js.map",
+    "164.ef1e659c.chunk.js.map": "/module-federation-example/remote-app-2/static/js/164.ef1e659c.chunk.js.map",
+    "192.6c1fe200.chunk.js.map": "/module-federation-example/remote-app-2/static/js/192.6c1fe200.chunk.js.map",
+    "938.f4e1d137.chunk.js.map": "/module-federation-example/remote-app-2/static/js/938.f4e1d137.chunk.js.map",
+    "361.f6b141ad.chunk.js.map": "/module-federation-example/remote-app-2/static/js/361.f6b141ad.chunk.js.map",
+    "390.b221712d.chunk.js.map": "/module-federation-example/remote-app-2/static/js/390.b221712d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bb3ad8ee.js"
+  ]
+}
