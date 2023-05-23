@@ -2,6 +2,7 @@
   "name": "remote-app-1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/module-federation-example/remote-app-1",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -26,6 +27,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "deploy": "gh-pages -d build -e remote-app-1",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
@@ -47,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

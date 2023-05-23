@@ -3,14 +3,14 @@ import ReactDOM from "react-dom/client";
 import {
   Route,
   RouterProvider,
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
 } from "react-router-dom";
 import { App } from "../App";
 import "../index.css";
 import reportWebVitals from "../reportWebVitals";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(<Route path="/*" element={<App />} />)
 );
 
