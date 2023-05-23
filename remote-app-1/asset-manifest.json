@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.js": "/module-federation-example/remote-app-1/static/js/main.dc4648bc.js",
+    "remote_app_1.js": "/module-federation-example/remote-app-1/remoteEntry.js",
+    "static/css/214.a601cb8e.chunk.css": "/module-federation-example/remote-app-1/static/css/214.a601cb8e.chunk.css",
+    "static/js/214.cd06faa7.chunk.js": "/module-federation-example/remote-app-1/static/js/214.cd06faa7.chunk.js",
+    "static/js/702.8e2615d9.chunk.js": "/module-federation-example/remote-app-1/static/js/702.8e2615d9.chunk.js",
+    "static/js/225.3b71feae.chunk.js": "/module-federation-example/remote-app-1/static/js/225.3b71feae.chunk.js",
+    "static/js/791.5e0a3d66.chunk.js": "/module-federation-example/remote-app-1/static/js/791.5e0a3d66.chunk.js",
+    "static/js/787.83a184bd.chunk.js": "/module-federation-example/remote-app-1/static/js/787.83a184bd.chunk.js",
+    "static/js/971.fff4d32c.chunk.js": "/module-federation-example/remote-app-1/static/js/971.fff4d32c.chunk.js",
+    "static/js/164.a3c42f4e.chunk.js": "/module-federation-example/remote-app-1/static/js/164.a3c42f4e.chunk.js",
+    "static/js/938.568331e3.chunk.js": "/module-federation-example/remote-app-1/static/js/938.568331e3.chunk.js",
+    "static/js/192.43bbbd45.chunk.js": "/module-federation-example/remote-app-1/static/js/192.43bbbd45.chunk.js",
+    "static/js/361.cdb489dc.chunk.js": "/module-federation-example/remote-app-1/static/js/361.cdb489dc.chunk.js",
+    "static/js/610.cf7362df.chunk.js": "/module-federation-example/remote-app-1/static/js/610.cf7362df.chunk.js",
+    "static/js/407.ff9c1540.chunk.js": "/module-federation-example/remote-app-1/static/js/407.ff9c1540.chunk.js",
+    "static/media/shapes-5.jpg": "/module-federation-example/remote-app-1/static/media/shapes-5.8fd71ba824deafbf5e4d.jpg",
+    "static/media/shapes-4.webp": "/module-federation-example/remote-app-1/static/media/shapes-4.e8f0e18bb55cb94d46c1.webp",
+    "static/media/shapes-3.jpg": "/module-federation-example/remote-app-1/static/media/shapes-3.68de8714427c26d38a22.jpg",
+    "static/media/shapes-1.webp": "/module-federation-example/remote-app-1/static/media/shapes-1.f0d213c541b04e4a3132.webp",
+    "static/media/shapes-2.webp": "/module-federation-example/remote-app-1/static/media/shapes-2.5745265a6e8888359b26.webp",
+    "index.html": "/module-federation-example/remote-app-1/index.html",
+    "main.dc4648bc.js.map": "/module-federation-example/remote-app-1/static/js/main.dc4648bc.js.map",
+    "remoteEntry.js.map": "/module-federation-example/remote-app-1/remoteEntry.js.map",
+    "214.a601cb8e.chunk.css.map": "/module-federation-example/remote-app-1/static/css/214.a601cb8e.chunk.css.map",
+    "214.cd06faa7.chunk.js.map": "/module-federation-example/remote-app-1/static/js/214.cd06faa7.chunk.js.map",
+    "702.8e2615d9.chunk.js.map": "/module-federation-example/remote-app-1/static/js/702.8e2615d9.chunk.js.map",
+    "225.3b71feae.chunk.js.map": "/module-federation-example/remote-app-1/static/js/225.3b71feae.chunk.js.map",
+    "791.5e0a3d66.chunk.js.map": "/module-federation-example/remote-app-1/static/js/791.5e0a3d66.chunk.js.map",
+    "787.83a184bd.chunk.js.map": "/module-federation-example/remote-app-1/static/js/787.83a184bd.chunk.js.map",
+    "971.fff4d32c.chunk.js.map": "/module-federation-example/remote-app-1/static/js/971.fff4d32c.chunk.js.map",
+    "164.a3c42f4e.chunk.js.map": "/module-federation-example/remote-app-1/static/js/164.a3c42f4e.chunk.js.map",
+    "938.568331e3.chunk.js.map": "/module-federation-example/remote-app-1/static/js/938.568331e3.chunk.js.map",
+    "192.43bbbd45.chunk.js.map": "/module-federation-example/remote-app-1/static/js/192.43bbbd45.chunk.js.map",
+    "361.cdb489dc.chunk.js.map": "/module-federation-example/remote-app-1/static/js/361.cdb489dc.chunk.js.map",
+    "610.cf7362df.chunk.js.map": "/module-federation-example/remote-app-1/static/js/610.cf7362df.chunk.js.map",
+    "407.ff9c1540.chunk.js.map": "/module-federation-example/remote-app-1/static/js/407.ff9c1540.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.dc4648bc.js"
+  ]
+}
