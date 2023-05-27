@@ -30,7 +30,7 @@
     "deploy": "gh-pages -d build -e remote-app-1",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
-    "analyze": "source-map-explorer 'build/static/js/*.js'"
+    "analyze": "npx source-map-explorer 'build/static/js/*.js' --html build/source-map-explorer.html"
   },
   "eslintConfig": {
     "extends": [
