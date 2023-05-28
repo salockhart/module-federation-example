@@ -1,3 +1,3 @@
-import("./bootstrap/local").catch((err) => console.error(err));
+import("./bootstrap/host").catch((err) => console.error(err));
 
 export {};
