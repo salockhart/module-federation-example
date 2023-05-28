@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/module-federation-example/host-app/static/js/main.d1440945.js",
-    "static/css/735.19f42a5c.chunk.css": "/module-federation-example/host-app/static/css/735.19f42a5c.chunk.css",
-    "static/js/735.375ffa25.chunk.js": "/module-federation-example/host-app/static/js/735.375ffa25.chunk.js",
+    "main.js": "/module-federation-example/host-app/static/js/main.02208cbd.js",
+    "static/css/580.0183f590.chunk.css": "/module-federation-example/host-app/static/css/580.0183f590.chunk.css",
+    "static/js/580.64688cdb.chunk.js": "/module-federation-example/host-app/static/js/580.64688cdb.chunk.js",
     "static/js/702.bc15c451.chunk.js": "/module-federation-example/host-app/static/js/702.bc15c451.chunk.js",
     "static/js/225.77016a9a.chunk.js": "/module-federation-example/host-app/static/js/225.77016a9a.chunk.js",
     "static/js/660.b4c5e8c7.chunk.js": "/module-federation-example/host-app/static/js/660.b4c5e8c7.chunk.js",
@@ -18,9 +18,9 @@
     "static/js/361.5b8c06a6.chunk.js": "/module-federation-example/host-app/static/js/361.5b8c06a6.chunk.js",
     "static/js/357.86c2277f.chunk.js": "/module-federation-example/host-app/static/js/357.86c2277f.chunk.js",
     "index.html": "/module-federation-example/host-app/index.html",
-    "main.d1440945.js.map": "/module-federation-example/host-app/static/js/main.d1440945.js.map",
-    "735.19f42a5c.chunk.css.map": "/module-federation-example/host-app/static/css/735.19f42a5c.chunk.css.map",
-    "735.375ffa25.chunk.js.map": "/module-federation-example/host-app/static/js/735.375ffa25.chunk.js.map",
+    "main.02208cbd.js.map": "/module-federation-example/host-app/static/js/main.02208cbd.js.map",
+    "580.0183f590.chunk.css.map": "/module-federation-example/host-app/static/css/580.0183f590.chunk.css.map",
+    "580.64688cdb.chunk.js.map": "/module-federation-example/host-app/static/js/580.64688cdb.chunk.js.map",
     "702.bc15c451.chunk.js.map": "/module-federation-example/host-app/static/js/702.bc15c451.chunk.js.map",
     "225.77016a9a.chunk.js.map": "/module-federation-example/host-app/static/js/225.77016a9a.chunk.js.map",
     "660.b4c5e8c7.chunk.js.map": "/module-federation-example/host-app/static/js/660.b4c5e8c7.chunk.js.map",
@@ -37,6 +37,6 @@
     "357.86c2277f.chunk.js.map": "/module-federation-example/host-app/static/js/357.86c2277f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d1440945.js"
+    "static/js/main.02208cbd.js"
   ]
 }
