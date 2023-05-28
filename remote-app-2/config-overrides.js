@@ -13,7 +13,7 @@ module.exports = function override(config) {
         name: "remote_app_2",
         filename: "remoteEntry.js",
         exposes: {
-          "./App": "./src/bootstrap/app",
+          "./App": "./src/bootstrap/remote",
         },
         shared: {
           ...dependencies,
