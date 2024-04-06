@@ -16,10 +16,6 @@ jobs:
     permissions:
       contents: write
 
-    strategy:
-      matrix:
-        app: [host-app, remote-app-1, remote-app-2]
-
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -35,10 +31,11 @@ jobs:
           GITHUB_REPOSITORY: salockhart/module-federation-example
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: install dependencies
+        run: npm ci
+
       - name: build & deploy
         run: |
-          npm ci
           npm run build
           npm run analyze
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
-        working-directory: ${{ matrix.app }}
