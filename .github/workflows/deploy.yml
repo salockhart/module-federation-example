@@ -37,5 +37,5 @@ jobs:
       - name: build & deploy
         run: |
           npm run build
-          npm run analyze
+          # npm run analyze
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
