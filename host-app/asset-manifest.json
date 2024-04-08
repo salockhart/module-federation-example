@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/module-federation-example/host-app/static/js/main.10738170.js",
+    "main.js": "/module-federation-example/host-app/static/js/main.abd46228.js",
     "static/css/360.ba590bf1.chunk.css": "/module-federation-example/host-app/static/css/360.ba590bf1.chunk.css",
     "static/js/360.66342d70.chunk.js": "/module-federation-example/host-app/static/js/360.66342d70.chunk.js",
     "static/js/954.38eac6bc.chunk.js": "/module-federation-example/host-app/static/js/954.38eac6bc.chunk.js",
@@ -13,7 +13,7 @@
     "static/js/597.e82125fa.chunk.js": "/module-federation-example/host-app/static/js/597.e82125fa.chunk.js",
     "static/js/909.7e036b9e.chunk.js": "/module-federation-example/host-app/static/js/909.7e036b9e.chunk.js",
     "index.html": "/module-federation-example/host-app/index.html",
-    "main.10738170.js.map": "/module-federation-example/host-app/static/js/main.10738170.js.map",
+    "main.abd46228.js.map": "/module-federation-example/host-app/static/js/main.abd46228.js.map",
     "360.ba590bf1.chunk.css.map": "/module-federation-example/host-app/static/css/360.ba590bf1.chunk.css.map",
     "360.66342d70.chunk.js.map": "/module-federation-example/host-app/static/js/360.66342d70.chunk.js.map",
     "954.38eac6bc.chunk.js.map": "/module-federation-example/host-app/static/js/954.38eac6bc.chunk.js.map",
@@ -27,6 +27,6 @@
     "909.7e036b9e.chunk.js.map": "/module-federation-example/host-app/static/js/909.7e036b9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.10738170.js"
+    "static/js/main.abd46228.js"
   ]
 }
